@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!znamena, ze ide o najnovsiu verziu HTML5. Na zaciatku napisem html a kliknem enter a vytvori zakladny template>
+  <html lang="en" dir="ltr">
+  <! html ozancuje zaciatok html kodu, na konci je vyznaceny koniec. Sklada sa standardne z hlavicky head a tela body>
+
+    <head>
+      <meta charset="utf-8">
+      <!utf-8 je standardny set znakov pouzivanych v html5. Pre vsetky svetove reci, nielen v latinke, vratane emotikonov ako napr.🍻 aj inych pouzivanych znakov. Vlastne vsetky mozne.>
+        <title> CV-Model</title>
+    </head>
+
+    <body>
+      <table cellspacing="20">
+        <! Odsadenie stlpcov>
+          <! Tabulku mozem pouzit aj na dva kvazi stlpce vedla seba. Standardne sa na to vsak pouziva css>
+            <tr>
+              <td><img src="image.png" alt="image">
+                <!Ako pridat obrazok z kompu alebo webu. alt je koment pre pripadne vyhladavanie na webe. Pre obrazok z webu, napr. - https://files.thehandbook.com/uploads/2020/10/lana-rhoades.jpg. Pozri tiez https://crop-circle.imageonline.co />
+              </td>
+              <td>
+                <h1>Awesome Programmer</h1>
+                <! Opat staci pouzit skratku h1 a enter>
+                  <p><em><a href="http://www.brandtalent.net/women">Model</a> and <strong>Java Junior</strong></em></p>
+                  <! em alebo i pre text kurzivou. strong alebo b pre bold>
+                    <!a href pre hypertext link>
+                      <p>Awesome model who has started to learn programming in Java.</p>
+              </td>
+            </tr>
+      </table>
+
+      <hr size="3" noshade>
+      <! horizontalna ciara, hrubka, tienovanie>
+
+        <h3>Education</h3>
+        <!Format pre odrazkovanie>
+          <ul>
+            <li>Master`s degree from <a href="https://www.elitemodel.fr/fr/web.app">Paris.</a></li>
+            <li>Bachelor`s degree on <a href="https://www.unl.edu/">University of Nebrasca.</a></li>
+            <li>Highschool in Omaha, Nebrasca</li>
+          </ul>
+
+          <hr>
+
+          <h3>Working Experience</h3>
+          <! Vytvorime tabulku. Daju sa jednoduche aj zlozite - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table>
+            <table border="1">
+              <! table maju aj atributy v html, ale styling v praxi sa robi pomocou css>
+                <thead>
+                  <! hlavicka tabulky>
+                    <tr>
+                      <th>Dates</th>
+                      <! nazov stlpca tabulky>
+                        <th>Work</th>
+                    </tr>
+                </thead>
+                <! Pri jednoduchsich tabulkach nie je vzdy potrebne rozlisenie na head, body a foot>
+                  <! Ale ma to vyznam napr. pri formatovani, resp. rozneho pouzitia jednotlivych casti tabulky>
+                    <tbody>
+                      <! telo tabulky>
+                        <tr>
+                          <! riadok>
+                            <td>2021</td>
+                            <! data>
+                              <td>Java Junior at F4S</td>
+                        </tr>
+                        <tr>
+                          <td>2018-2020</td>
+                          <td>Model at Instagram</td>
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                      <! pata tabulky>
+                    </tfoot>
+            </table>
+
+            <hr>
+
+            <h3>Skills</h3>
+            <table cellspacing="10">
+              <tr>
+                <td>To look awesome</td>
+                <td>💓️💓️💓️💓️💓️</td>
+                <td>Java</td>
+                <td>⭐️⭐️</td>
+              </tr>
+              <tr>
+                <td>Dancing</td>
+                <td>💓️💓️💓️💓️</td>
+                <td>Python</td>
+                <td>⭐️</td>
+              </tr>
+              <tr>
+                <td>Sunbathing</td>
+                <td>💓️💓️💓️💓️💓️</td>
+                <td>HTML5</td>
+                <td>⭐️⭐️</td>
+              </tr>
+            </table>
+
+            <br>
+            <!medzera medzi riadkami>
+
+              <a href="hobbies.html">My Hobbies</a>
+              <!Link na moj iny file.>
+                <a href="contacts.html">Contact me ♥ </a>
+
+    </body>
+
+  </html>

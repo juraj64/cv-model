@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contacts</title>
+</head>
+
+<body>
+  <h1>You can reach our java model at:</h1>
+
+  <ul>
+    <li><a href="https://twitter.com/lanarhoades">Twitter</a></li>
+    <li>model.java@gmail.com</li>
+    <li><a href="tel:+7614714814">Phone</a></li>
+  </ul>
+
+  <! Form na input dat - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form>
+    <form class="" action="index.html" method="post"><! submit vrati na homepage index.html>
+      <label for="">Your name:</label><! Hlavicka>
+        <input type="text" name="" value=""><!Text>
+          <input type="color" name="" value=""> <!Mnoho typov inputov, napr. farba - pozri tiez file forms.html>
+            <br>
+            <label for="">Password:</label>
+            <input type="password" name="" value="">
+            <br>
+            <label for="">Do you want to date me?</label>
+            <input type="checkbox" name="" value="">
+            <input type="submit" name=""><!Submit>
+
+    </form>
+
+      <hr>
+
+    <! Druha forma. Poslem submit do mailu. Treba tiez upravit textovy format>
+      <form action="mailto:juraj.lazovy@gmail.com" method="post" enctype="text/plain">
+        <label for="">Your Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label for="">Your Email:</label>
+        <input type="email" name="yourEmail"><br>
+        <label for="">Your Message:</label><br>
+        <! novy typ pre vacsiu plochu (10 x 30 v nasom pripade) na text. Velkost sa da menit aj priamo na web stranke>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="">
+
+
+      </form>
+
+</body>
+
+</html>
